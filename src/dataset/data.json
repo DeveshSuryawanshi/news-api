@@ -1,0 +1,775 @@
+{
+  "state": "Florida",
+  "flood_news": [
+    {
+      "id": 101,
+      "title": "Tropical Storm Elsa causes severe coastal flooding in Tampa Bay",
+      "content": "Tropical Storm Elsa has led to widespread flooding across Tampa Bay. Roads are submerged and several neighborhoods are without power. Emergency crews have started rescue operations.",
+      "city": "Tampa",
+      "date": "2025-10-05",
+      "source": "NOAA",
+      "keywords": ["tropical storm", "coastal flood", "storm surge", "rescue"],
+      "reliability_score": 0.97,
+      "sentiment": "negative",
+      "impact_factors": {
+        "sea_level_rise": 85,
+        "storm_surge": 95,
+        "wind_speed": 80,
+        "rainfall_intensity": 75,
+        "ground_saturation": 65,
+        "drainage_failure": 60
+      }
+    },
+    {
+      "id": 102,
+      "title": "Heavy rains trigger flash floods in Orlando suburbs",
+      "content": "Continuous heavy rainfall for the past 24 hours has flooded major roads in Orlando suburbs. Commuters faced traffic disruptions, and local authorities issued warnings for low-lying areas.",
+      "city": "Orlando",
+      "date": "2025-10-06",
+      "source": "The Weather Channel",
+      "keywords": ["heavy rain", "flash flood", "urban flooding"],
+      "reliability_score": 0.94,
+      "sentiment": "negative",
+      "impact_factors": {
+        "rainfall_intensity": 90,
+        "urban_drainage_issue": 85,
+        "ground_saturation": 80,
+        "infrastructure_condition": 50,
+        "evacuation_alert": 20
+      }
+    },
+    {
+      "id": 103,
+      "title": "Miami streets flooded due to high tides and rainfall",
+      "content": "Downtown Miami and Brickell areas experienced moderate flooding as seasonal high tides coincided with afternoon rainfall. City drainage systems are under pressure but no major damage reported.",
+      "city": "Miami",
+      "date": "2025-10-06",
+      "source": "Miami Herald",
+      "keywords": ["high tide", "coastal flood", "rainfall"],
+      "reliability_score": 0.95,
+      "sentiment": "moderate",
+      "impact_factors": {
+        "sea_level_rise": 75,
+        "rainfall_intensity": 65,
+        "drainage_capacity": 55,
+        "infrastructure_condition": 60,
+        "urban_density": 70
+      }
+    },
+    {
+      "id": 104,
+      "title": "Fake reports of flood in Jacksonville circulate on social media",
+      "content": "Several viral posts claimed heavy flooding in Jacksonville. Officials have confirmed no such incident occurred. Authorities warned residents against misinformation.",
+      "city": "Jacksonville",
+      "date": "2025-10-06",
+      "source": "Twitter/X",
+      "keywords": ["fake news", "flood rumor"],
+      "reliability_score": 0.4,
+      "sentiment": "false_alert",
+      "impact_factors": {
+        "fake_news_detection": 90,
+        "public_confusion": 50,
+        "actual_rainfall": 10,
+        "media_impact": 40
+      }
+    },
+    {
+      "id": 105,
+      "title": "Flood recovery efforts continue in Fort Myers after storm surge",
+      "content": "Post-storm recovery continues in Fort Myers where storm surges damaged coastal homes. Cleanup and drainage restoration efforts are underway.",
+      "city": "Fort Myers",
+      "date": "2025-10-07",
+      "source": "Associated Press",
+      "keywords": ["storm surge", "recovery", "flood damage"],
+      "reliability_score": 0.96,
+      "sentiment": "recovery",
+      "impact_factors": {
+        "storm_surge": 80,
+        "sea_level_rise": 70,
+        "rainfall_intensity": 50,
+        "recovery_progress": 60,
+        "infrastructure_condition": 40
+      }
+    },
+    {
+      "id": 106,
+      "title": "Storm drains overflow as heavy rain hits St. Petersburg",
+      "content": "St. Petersburg witnessed overflowing storm drains after intense evening rain, submerging several residential streets. The city’s drainage system struggled to handle the sudden inflow.",
+      "city": "St. Petersburg",
+      "date": "2025-10-06",
+      "source": "Tampa Bay Times",
+      "keywords": ["storm drain", "urban flooding", "drainage failure"],
+      "reliability_score": 0.93,
+      "sentiment": "negative",
+      "impact_factors": {
+        "rainfall_intensity": 80,
+        "urban_drainage_issue": 90,
+        "ground_saturation": 70,
+        "infrastructure_condition": 55
+      }
+    },
+    {
+      "id": 107,
+      "title": "Rising waters along the Suwannee River threaten nearby homes",
+      "content": "The Suwannee River has risen by nearly 4 feet due to continuous upstream rainfall, putting riverside homes at risk. Officials are monitoring the situation closely.",
+      "city": "Live Oak",
+      "date": "2025-10-05",
+      "source": "Florida Times-Union",
+      "keywords": ["river flooding", "Suwannee River", "evacuation"],
+      "reliability_score": 0.96,
+      "sentiment": "negative",
+      "impact_factors": {
+        "river_discharge": 95,
+        "rainfall_intensity": 75,
+        "ground_saturation": 65,
+        "evacuation_alert": 40
+      }
+    },
+    {
+      "id": 108,
+      "title": "Localized flooding reported in Tallahassee after sudden thunderstorms",
+      "content": "A series of unexpected thunderstorms caused localized flooding in Tallahassee’s downtown. No major damages were reported, but several cars were stranded.",
+      "city": "Tallahassee",
+      "date": "2025-10-06",
+      "source": "The Weather Channel",
+      "keywords": ["thunderstorm", "localized flood", "traffic disruption"],
+      "reliability_score": 0.95,
+      "sentiment": "moderate",
+      "impact_factors": {
+        "rainfall_intensity": 70,
+        "drainage_capacity": 60,
+        "infrastructure_condition": 50,
+        "urban_density": 65
+      }
+    },
+    {
+      "id": 109,
+      "title": "Fort Lauderdale airport delays after runway flooding",
+      "content": "Heavy morning rains flooded the runways at Fort Lauderdale-Hollywood Airport, causing flight delays and cancellations. Cleanup crews worked through the afternoon to clear standing water.",
+      "city": "Fort Lauderdale",
+      "date": "2025-10-07",
+      "source": "Associated Press",
+      "keywords": ["airport flooding", "travel disruption", "runoff"],
+      "reliability_score": 0.97,
+      "sentiment": "negative",
+      "impact_factors": {
+        "rainfall_intensity": 85,
+        "runoff_accumulation": 75,
+        "drainage_failure": 65,
+        "infrastructure_condition": 45
+      }
+    },
+    {
+      "id": 110,
+      "title": "Residents in Sarasota brace for weekend flooding as tropical wave nears",
+      "content": "A tropical wave moving across the Gulf of Mexico is expected to bring heavy rains and flooding to Sarasota County this weekend. Authorities advised sandbag preparation.",
+      "city": "Sarasota",
+      "date": "2025-10-06",
+      "source": "NOAA",
+      "keywords": ["tropical wave", "flood warning", "sandbags"],
+      "reliability_score": 0.98,
+      "sentiment": "alert",
+      "impact_factors": {
+        "storm_surge": 70,
+        "rainfall_intensity": 80,
+        "sea_level_rise": 60,
+        "early_warning": 85
+      }
+    },
+    {
+      "id": 111,
+      "title": "Lake Okeechobee levels rise to near-historic highs",
+      "content": "Continuous rainfall has caused Lake Okeechobee’s water levels to rise significantly, increasing risk to surrounding farmlands and nearby towns.",
+      "city": "Okeechobee",
+      "date": "2025-10-06",
+      "source": "Florida Water Management",
+      "keywords": ["lake overflow", "agriculture impact", "flood threat"],
+      "reliability_score": 0.97,
+      "sentiment": "negative",
+      "impact_factors": {
+        "rainfall_intensity": 85,
+        "river_discharge": 90,
+        "ground_saturation": 75,
+        "evacuation_alert": 30
+      }
+    },
+    {
+      "id": 112,
+      "title": "Pensacola floodwaters recede, cleanup operations begin",
+      "content": "Floodwaters have begun to recede in Pensacola following three days of rain. City crews are clearing debris and restoring traffic routes.",
+      "city": "Pensacola",
+      "date": "2025-10-07",
+      "source": "Pensacola News Journal",
+      "keywords": ["cleanup", "flood recovery", "storm aftermath"],
+      "reliability_score": 0.95,
+      "sentiment": "recovery",
+      "impact_factors": {
+        "rainfall_intensity": 60,
+        "recovery_progress": 75,
+        "drainage_capacity": 65,
+        "infrastructure_condition": 55
+      }
+    },
+    {
+      "id": 113,
+      "title": "Officials issue advisory as waterlogging affects Daytona Beach",
+      "content": "Waterlogging in Daytona Beach caused minor traffic disruptions but no major damage. Beachfront areas reported higher tides than usual.",
+      "city": "Daytona Beach",
+      "date": "2025-10-06",
+      "source": "Fox Weather",
+      "keywords": ["waterlogging", "traffic", "high tide"],
+      "reliability_score": 0.93,
+      "sentiment": "moderate",
+      "impact_factors": {
+        "rainfall_intensity": 55,
+        "sea_level_rise": 65,
+        "drainage_capacity": 70,
+        "ground_saturation": 60
+      }
+    },
+    {
+      "id": 114,
+      "title": "Naples experiences flash floods after sudden downpour",
+      "content": "A sudden downpour caused flash floods in central Naples. Several small businesses reported minor property damage, though no injuries were recorded.",
+      "city": "Naples",
+      "date": "2025-10-07",
+      "source": "WINK News",
+      "keywords": ["flash flood", "property damage", "rainstorm"],
+      "reliability_score": 0.96,
+      "sentiment": "negative",
+      "impact_factors": {
+        "rainfall_intensity": 85,
+        "urban_drainage_issue": 70,
+        "ground_saturation": 75,
+        "infrastructure_condition": 50
+      }
+    },
+    {
+      "id": 115,
+      "title": "Moderate rainfall improves conditions in flood-hit Tampa Bay",
+      "content": "Following days of heavy rain, Tampa Bay finally sees moderate weather. Floodwaters are gradually subsiding, offering relief to local residents.",
+      "city": "Tampa",
+      "date": "2025-10-08",
+      "source": "The Weather Channel",
+      "keywords": ["flood relief", "weather improvement", "subsiding waters"],
+      "reliability_score": 0.95,
+      "sentiment": "recovery",
+      "impact_factors": {
+        "rainfall_intensity": 40,
+        "recovery_progress": 80,
+        "drainage_capacity": 75,
+        "infrastructure_condition": 60
+      }
+    },
+    {
+      "id": 116,
+      "title": "Heavy rain floods Gainesville’s downtown streets overnight",
+      "content": "Several main streets in downtown Gainesville were flooded after eight inches of rainfall within six hours. Local businesses remained closed during cleanup efforts.",
+      "city": "Gainesville",
+      "date": "2025-10-08",
+      "source": "Gainesville Sun",
+      "keywords": ["downtown flood", "heavy rainfall", "business closures"],
+      "reliability_score": 0.95,
+      "sentiment": "negative",
+      "impact_factors": {
+        "rainfall_intensity": 88,
+        "drainage_failure": 75,
+        "urban_density": 70,
+        "ground_saturation": 80
+      }
+    },
+    {
+      "id": 117,
+      "title": "Storm surge inundates coastal areas of Palm Beach County",
+      "content": "Palm Beach County experienced a two-foot storm surge early Tuesday morning, with coastal roads submerged and minor property damage reported.",
+      "city": "Palm Beach",
+      "date": "2025-10-07",
+      "source": "Sun Sentinel",
+      "keywords": ["storm surge", "coastal flooding", "property damage"],
+      "reliability_score": 0.97,
+      "sentiment": "negative",
+      "impact_factors": {
+        "storm_surge": 92,
+        "sea_level_rise": 70,
+        "coastal_vulnerability": 85,
+        "infrastructure_condition": 60
+      }
+    },
+    {
+      "id": 118,
+      "title": "Rain-swollen Peace River forces temporary road closures",
+      "content": "Rising levels in the Peace River have led to several rural road closures in DeSoto County. Officials are monitoring flood gauges closely.",
+      "city": "Arcadia",
+      "date": "2025-10-08",
+      "source": "NBC2 Florida",
+      "keywords": ["river overflow", "road closure", "Peace River"],
+      "reliability_score": 0.96,
+      "sentiment": "alert",
+      "impact_factors": {
+        "river_discharge": 90,
+        "rainfall_intensity": 78,
+        "ground_saturation": 70,
+        "infrastructure_condition": 65
+      }
+    },
+    {
+      "id": 119,
+      "title": "Flash floods hit Panama City after late-night downpour",
+      "content": "Flash floods swept through several neighborhoods in Panama City following an intense midnight thunderstorm. Emergency teams rescued stranded residents.",
+      "city": "Panama City",
+      "date": "2025-10-08",
+      "source": "Panama City News Herald",
+      "keywords": ["flash flood", "rescue", "thunderstorm"],
+      "reliability_score": 0.98,
+      "sentiment": "negative",
+      "impact_factors": {
+        "rainfall_intensity": 95,
+        "urban_drainage_issue": 80,
+        "response_efficiency": 60,
+        "evacuation_alert": 50
+      }
+    },
+    {
+      "id": 120,
+      "title": "Orlando’s retention ponds reach capacity amid continued rainfall",
+      "content": "Multiple retention ponds across Orlando have reached critical levels due to ongoing rainfall. Local authorities are assessing overflow risks.",
+      "city": "Orlando",
+      "date": "2025-10-07",
+      "source": "Orlando Sentinel",
+      "keywords": ["retention pond", "overflow risk", "rainfall"],
+      "reliability_score": 0.94,
+      "sentiment": "alert",
+      "impact_factors": {
+        "rainfall_intensity": 82,
+        "drainage_capacity": 65,
+        "urban_density": 72,
+        "infrastructure_condition": 55
+      }
+    },
+    {
+      "id": 121,
+      "title": "Levee breach causes flooding in rural Glades County farmlands",
+      "content": "A levee breach near Moore Haven resulted in significant flooding across agricultural fields. Crews are working to reinforce the embankment.",
+      "city": "Moore Haven",
+      "date": "2025-10-07",
+      "source": "WPTV West Palm Beach",
+      "keywords": ["levee breach", "agricultural flooding", "Glades County"],
+      "reliability_score": 0.96,
+      "sentiment": "negative",
+      "impact_factors": {
+        "infrastructure_failure": 95,
+        "river_discharge": 88,
+        "ground_saturation": 75,
+        "recovery_progress": 30
+      }
+    },
+    {
+      "id": 122,
+      "title": "Tropical Depression 12 brings record rainfall to Jacksonville",
+      "content": "Jacksonville saw its wettest October day on record as Tropical Depression 12 dumped nearly 9 inches of rain in 24 hours. Flood warnings remain in effect.",
+      "city": "Jacksonville",
+      "date": "2025-10-08",
+      "source": "NOAA",
+      "keywords": ["tropical depression", "record rainfall", "flood warning"],
+      "reliability_score": 0.99,
+      "sentiment": "negative",
+      "impact_factors": {
+        "storm_intensity": 95,
+        "rainfall_intensity": 98,
+        "storm_surge": 65,
+        "drainage_failure": 70
+      }
+    },
+    {
+      "id": 123,
+      "title": "Minor flooding in Lakeland as drainage systems tested",
+      "content": "Lakeland experienced mild flooding in low-lying zones after consecutive rainy days. City engineers said drainage systems largely held up.",
+      "city": "Lakeland",
+      "date": "2025-10-07",
+      "source": "The Ledger",
+      "keywords": ["minor flood", "low-lying areas", "drainage systems"],
+      "reliability_score": 0.92,
+      "sentiment": "moderate",
+      "impact_factors": {
+        "rainfall_intensity": 55,
+        "drainage_capacity": 85,
+        "urban_density": 60,
+        "infrastructure_condition": 70
+      }
+    },
+    {
+      "id": 124,
+      "title": "Everglades overflow threatens nearby wildlife preserves",
+      "content": "Excess water from recent rains has led to elevated water levels in the Everglades, potentially displacing local wildlife and affecting conservation areas.",
+      "city": "Everglades City",
+      "date": "2025-10-08",
+      "source": "National Geographic",
+      "keywords": ["Everglades", "overflow", "wildlife impact"],
+      "reliability_score": 0.98,
+      "sentiment": "environmental",
+      "impact_factors": {
+        "rainfall_intensity": 78,
+        "ecosystem_sensitivity": 90,
+        "water_retention": 85,
+        "ground_saturation": 75
+      }
+    },
+    {
+      "id": 125,
+      "title": "Dam overflow near Ocala prompts precautionary evacuations",
+      "content": "Residents living downstream of the Silver Springs Dam were evacuated as heavy rainfall caused water to flow over the spillway. No breaches have been reported yet.",
+      "city": "Ocala",
+      "date": "2025-10-08",
+      "source": "Ocala Star-Banner",
+      "keywords": ["dam overflow", "evacuation", "spillway"],
+      "reliability_score": 0.97,
+      "sentiment": "alert",
+      "impact_factors": {
+        "infrastructure_condition": 85,
+        "rainfall_intensity": 88,
+        "response_efficiency": 75,
+        "evacuation_alert": 65
+      }
+    },
+    {
+      "id": 135,
+      "title": "Heavy coastal flooding hits Miami Beach neighborhoods",
+      "content": "Several streets in Miami Beach are underwater due to high tides combined with a weekend storm surge. Local officials deployed pumps to reduce water accumulation.",
+      "city": "Miami",
+      "date": "2025-10-08",
+      "source": "Miami Herald",
+      "keywords": ["storm surge", "coastal flooding", "high tides"],
+      "reliability_score": 0.96,
+      "sentiment": "alert",
+      "impact_factors": {
+        "infrastructure_condition": 78,
+        "rainfall_intensity": 82,
+        "response_efficiency": 70,
+        "evacuation_alert": 50
+      }
+    },
+    {
+      "id": 136,
+      "title": "Tampa storm drains overflow after hours of rain",
+      "content": "Downtown Tampa experienced flooding as storm drains reached capacity during prolonged rainfall, leaving vehicles stranded in low-lying areas.",
+      "city": "Tampa",
+      "date": "2025-10-08",
+      "source": "Tampa Bay Times",
+      "keywords": ["urban flooding", "storm drains", "heavy rain"],
+      "reliability_score": 0.94,
+      "sentiment": "warning",
+      "impact_factors": {
+        "infrastructure_condition": 72,
+        "rainfall_intensity": 90,
+        "response_efficiency": 65,
+        "evacuation_alert": 40
+      }
+    },
+    {
+      "id": 137,
+      "title": "Orlando lakes overflow causing street closures",
+      "content": "The city of Orlando closed multiple roads after nearby lakes reached record water levels. Residents are urged to avoid travel near the affected zones.",
+      "city": "Orlando",
+      "date": "2025-10-08",
+      "source": "Orlando Sentinel",
+      "keywords": ["lake overflow", "road closures", "flood warning"],
+      "reliability_score": 0.91,
+      "sentiment": "alert",
+      "impact_factors": {
+        "infrastructure_condition": 80,
+        "rainfall_intensity": 83,
+        "response_efficiency": 68,
+        "evacuation_alert": 55
+      }
+    },
+    {
+      "id": 138,
+      "title": "St. Johns River near Jacksonville rises above flood stage",
+      "content": "Persistent rain has caused the St. Johns River to exceed flood stage, threatening several residential neighborhoods along the riverbanks.",
+      "city": "Jacksonville",
+      "date": "2025-10-08",
+      "source": "Florida Times-Union",
+      "keywords": ["river flooding", "flood stage", "rainfall"],
+      "reliability_score": 0.98,
+      "sentiment": "critical",
+      "impact_factors": {
+        "infrastructure_condition": 82,
+        "rainfall_intensity": 87,
+        "response_efficiency": 72,
+        "evacuation_alert": 60
+      }
+    },
+    {
+      "id": 139,
+      "title": "Pensacola coastal surge leaves hundreds without power",
+      "content": "A coastal surge along Pensacola Bay flooded streets and damaged power lines, cutting electricity to over 3,000 residents.",
+      "city": "Pensacola",
+      "date": "2025-10-08",
+      "source": "Pensacola News Journal",
+      "keywords": ["storm surge", "power outage", "coastal flooding"],
+      "reliability_score": 0.93,
+      "sentiment": "warning",
+      "impact_factors": {
+        "infrastructure_condition": 76,
+        "rainfall_intensity": 85,
+        "response_efficiency": 60,
+        "evacuation_alert": 45
+      }
+    },
+    {
+      "id": 140,
+      "title": "Flash floods in Fort Lauderdale disrupt downtown traffic",
+      "content": "Sudden flash floods caught drivers off guard in downtown Fort Lauderdale, prompting temporary closure of major intersections.",
+      "city": "Fort Lauderdale",
+      "date": "2025-10-08",
+      "source": "Sun Sentinel",
+      "keywords": ["flash flood", "traffic disruption", "road closure"],
+      "reliability_score": 0.95,
+      "sentiment": "alert",
+      "impact_factors": {
+        "infrastructure_condition": 74,
+        "rainfall_intensity": 92,
+        "response_efficiency": 68,
+        "evacuation_alert": 50
+      }
+    },
+    {
+      "id": 141,
+      "title": "Naples drainage systems overwhelmed by seasonal rain",
+      "content": "Drainage canals in Naples overflowed as seasonal storms dumped over 8 inches of rain in 24 hours, leading to localized flooding in residential zones.",
+      "city": "Naples",
+      "date": "2025-10-08",
+      "source": "Naples Daily News",
+      "keywords": ["drainage overflow", "seasonal rain", "localized flooding"],
+      "reliability_score": 0.92,
+      "sentiment": "warning",
+      "impact_factors": {
+        "infrastructure_condition": 70,
+        "rainfall_intensity": 88,
+        "response_efficiency": 64,
+        "evacuation_alert": 40
+      }
+    },
+    {
+      "id": 142,
+      "title": "Ocala roads flooded after overnight storms",
+      "content": "Heavy overnight rains caused flash floods in Ocala, affecting rural roads and farm areas. Emergency crews responded to stranded vehicles.",
+      "city": "Ocala",
+      "date": "2025-10-08",
+      "source": "Ocala Star-Banner",
+      "keywords": ["flash flood", "rural flooding", "heavy rain"],
+      "reliability_score": 0.97,
+      "sentiment": "alert",
+      "impact_factors": {
+        "infrastructure_condition": 79,
+        "rainfall_intensity": 91,
+        "response_efficiency": 70,
+        "evacuation_alert": 55
+      }
+    },
+    {
+      "id": 143,
+      "title": "Tallahassee neighborhoods face rising floodwaters",
+      "content": "Rainfall from a stalled storm system has led to street flooding in several Tallahassee neighborhoods. City officials are monitoring drainage points.",
+      "city": "Tallahassee",
+      "date": "2025-10-08",
+      "source": "Tallahassee Democrat",
+      "keywords": ["street flooding", "storm system", "drainage"],
+      "reliability_score": 0.96,
+      "sentiment": "warning",
+      "impact_factors": {
+        "infrastructure_condition": 81,
+        "rainfall_intensity": 86,
+        "response_efficiency": 72,
+        "evacuation_alert": 48
+      }
+    },
+    {
+      "id": 144,
+      "title": "Flood warnings issued for Gainesville after riverbanks overflow",
+      "content": "The Santa Fe River overflowed following two days of intense rain, leading to minor flooding in northern Gainesville neighborhoods.",
+      "city": "Gainesville",
+      "date": "2025-10-08",
+      "source": "Gainesville Sun",
+      "keywords": ["river overflow", "flood warning", "intense rain"],
+      "reliability_score": 0.94,
+      "sentiment": "alert",
+      "impact_factors": {
+        "infrastructure_condition": 77,
+        "rainfall_intensity": 84,
+        "response_efficiency": 69,
+        "evacuation_alert": 52
+      }
+    },
+    {
+      "id": 145,
+      "title": "Tidal flooding in Miami worsens with king tide event",
+      "content": "Miami's Brickell district experienced major tidal flooding as the seasonal king tide pushed seawater onto streets despite clear skies.",
+      "city": "Miami",
+      "date": "2025-10-09",
+      "source": "Miami Herald",
+      "keywords": ["king tide", "tidal flooding", "sea-level rise"],
+      "reliability_score": 0.95,
+      "sentiment": "alert",
+      "impact_factors": {
+        "infrastructure_condition": 76,
+        "rainfall_intensity": 40,
+        "response_efficiency": 72,
+        "evacuation_alert": 30
+      }
+    },
+    {
+      "id": 146,
+      "title": "Localized flooding in Tampa after short but intense storm",
+      "content": "A brief but intense storm drenched Tampa, flooding several intersections and parking lots across the downtown area.",
+      "city": "Tampa",
+      "date": "2025-10-09",
+      "source": "Tampa Bay Times",
+      "keywords": ["localized flooding", "intense rain", "urban flooding"],
+      "reliability_score": 0.96,
+      "sentiment": "warning",
+      "impact_factors": {
+        "infrastructure_condition": 74,
+        "rainfall_intensity": 88,
+        "response_efficiency": 68,
+        "evacuation_alert": 42
+      }
+    },
+    {
+      "id": 147,
+      "title": "Orlando flood alerts issued as storm drains near capacity",
+      "content": "The National Weather Service issued a flood alert for Orlando after storm drains began to back up during continuous rainfall.",
+      "city": "Orlando",
+      "date": "2025-10-09",
+      "source": "Orlando Sentinel",
+      "keywords": ["flood alert", "storm drains", "continuous rain"],
+      "reliability_score": 0.94,
+      "sentiment": "alert",
+      "impact_factors": {
+        "infrastructure_condition": 79,
+        "rainfall_intensity": 85,
+        "response_efficiency": 70,
+        "evacuation_alert": 48
+      }
+    },
+    {
+      "id": 148,
+      "title": "Jacksonville rainfall causes drainage system overload",
+      "content": "City engineers in Jacksonville reported temporary drainage failures following 7 inches of rain within 36 hours.",
+      "city": "Jacksonville",
+      "date": "2025-10-09",
+      "source": "Florida Times-Union",
+      "keywords": ["drainage failure", "heavy rainfall", "storm water"],
+      "reliability_score": 0.97,
+      "sentiment": "warning",
+      "impact_factors": {
+        "infrastructure_condition": 75,
+        "rainfall_intensity": 92,
+        "response_efficiency": 65,
+        "evacuation_alert": 50
+      }
+    },
+    {
+      "id": 149,
+      "title": "Pensacola experiences flash flooding after tropical disturbance",
+      "content": "A tropical disturbance passing through the Gulf brought flash floods to downtown Pensacola, inundating parking lots and coastal roads.",
+      "city": "Pensacola",
+      "date": "2025-10-09",
+      "source": "Pensacola News Journal",
+      "keywords": ["tropical disturbance", "flash flood", "coastal flooding"],
+      "reliability_score": 0.98,
+      "sentiment": "critical",
+      "impact_factors": {
+        "infrastructure_condition": 77,
+        "rainfall_intensity": 93,
+        "response_efficiency": 66,
+        "evacuation_alert": 55
+      }
+    },
+    {
+      "id": 150,
+      "title": "Fort Lauderdale underwater after evening thunderstorms",
+      "content": "Thunderstorms led to severe urban flooding in Fort Lauderdale, causing significant traffic delays and temporary business closures.",
+      "city": "Fort Lauderdale",
+      "date": "2025-10-09",
+      "source": "Sun Sentinel",
+      "keywords": ["urban flooding", "thunderstorm", "business closure"],
+      "reliability_score": 0.95,
+      "sentiment": "critical",
+      "impact_factors": {
+        "infrastructure_condition": 73,
+        "rainfall_intensity": 91,
+        "response_efficiency": 67,
+        "evacuation_alert": 60
+      }
+    },
+    {
+      "id": 151,
+      "title": "Naples neighborhoods see flooding from persistent rain bands",
+      "content": "South Naples neighborhoods are struggling with standing water after slow-moving rain bands dumped over 10 inches of rain in two days.",
+      "city": "Naples",
+      "date": "2025-10-09",
+      "source": "Naples Daily News",
+      "keywords": ["rain bands", "persistent rain", "standing water"],
+      "reliability_score": 0.96,
+      "sentiment": "alert",
+      "impact_factors": {
+        "infrastructure_condition": 71,
+        "rainfall_intensity": 89,
+        "response_efficiency": 64,
+        "evacuation_alert": 53
+      }
+    },
+    {
+      "id": 152,
+      "title": "Ocala ranch areas hit by flash floods after overnight storms",
+      "content": "Rural parts of Ocala saw multiple farm access roads washed out following torrential rains overnight.",
+      "city": "Ocala",
+      "date": "2025-10-09",
+      "source": "Ocala Star-Banner",
+      "keywords": ["rural flooding", "torrential rain", "farm damage"],
+      "reliability_score": 0.93,
+      "sentiment": "warning",
+      "impact_factors": {
+        "infrastructure_condition": 78,
+        "rainfall_intensity": 87,
+        "response_efficiency": 70,
+        "evacuation_alert": 45
+      }
+    },
+    {
+      "id": 153,
+      "title": "Tallahassee creeks overflow after continuous downpour",
+      "content": "Creeks in northern Tallahassee overflowed their banks, flooding nearby parks and residential driveways.",
+      "city": "Tallahassee",
+      "date": "2025-10-09",
+      "source": "Tallahassee Democrat",
+      "keywords": ["creek overflow", "downpour", "park flooding"],
+      "reliability_score": 0.97,
+      "sentiment": "alert",
+      "impact_factors": {
+        "infrastructure_condition": 80,
+        "rainfall_intensity": 84,
+        "response_efficiency": 71,
+        "evacuation_alert": 47
+      }
+    },
+    {
+      "id": 154,
+      "title": "Gainesville residents report flooding in low-lying streets",
+      "content": "Local reports indicate flooding in Gainesville’s low-lying residential streets after nearly 6 inches of rain fell in 18 hours.",
+      "city": "Gainesville",
+      "date": "2025-10-09",
+      "source": "Gainesville Sun",
+      "keywords": ["low-lying areas", "street flooding", "heavy rain"],
+      "reliability_score": 0.94,
+      "sentiment": "warning",
+      "impact_factors": {
+        "infrastructure_condition": 79,
+        "rainfall_intensity": 86,
+        "response_efficiency": 73,
+        "evacuation_alert": 44
+      }
+    }
+  ]
+}
