@@ -1,8 +1,12 @@
 import fs from "fs";
 import { predictWeatherCatIndex } from "./aiWeatherCatIndex.js";
 import { calculateFLPremium } from "./calculateFLPremium.js";
+const path = await import('path');
 const news = JSON.parse(
-  fs.readFileSync("../news/src/dataset/data.json", "utf8")
+  fs.readFileSync(
+    path.resolve(process.cwd(), "src/dataset/data.json"),
+    "utf8"
+  )
 );
 
 export const getNews = async (req, res) => {
